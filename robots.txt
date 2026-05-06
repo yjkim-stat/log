@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yjkim-stat.github.io/log/sitemap.xml
