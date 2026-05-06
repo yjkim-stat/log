@@ -190,6 +190,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  reports:
+    output: true
+    permalink: /reports/:path/
 
 announcements:
   enabled: true
