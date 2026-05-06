@@ -2,8 +2,6 @@
 layout: about
 title: about
 permalink: /
-nav: true
-nav_order: 1
 subtitle: Ph.D. student · Statistics and Data Science · Yonsei University
 
 profile:
@@ -21,25 +19,8 @@ latest_posts:
   scrollable: true
   limit: 4
 social: true
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 5
 ---
 
-**Education**
+Ph.D. student in Statistics and Data Science at Yonsei University. I write paper reviews, survey posts, and notes on machine learning research — focusing on language model post-training, alignment, and reasoning.
 
-- \[Sep 2023 – ] Ph.D. in Statistics and Data Science @ Yonsei Univ.
-- \[Mar 2019 – Jun 2023] B.S. in Applied Statistics and Data Science @ Yonsei Univ.
-- \[Mar 2017 – Jun 2023] B.S. in Astronomy @ Yonsei Univ.
-
-**Research Experience**
-
-- \[Jan 2024 – Feb 2024] Research Intern @ Linq
-- \[Jul 2022 – Jun 2023] Vocational Training Intern @ SAP Labs Korea
-- \[Jul 2021 – Jun 2022] URP, MIDaS Laboratory @ Yonsei Univ.
-
-**Teaching**
-
-- \[Sep 2023 – Dec 2023] TA · Introduction to Optimization for Data Science @ Yonsei Univ.
-- \[Jul 2022 – Dec 2022] TA · Data Science Lab Academic Society @ Yonsei Univ.
+For a full background, see my [CV](/log/cv/).
