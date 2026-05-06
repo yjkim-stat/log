@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - claude/setup-ai-research-blog-xOzxx
     paths:
       - "assets/**"
       - "**.bib"
