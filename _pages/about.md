@@ -4,15 +4,15 @@ title: about
 permalink: /
 nav: true
 nav_order: 1
-subtitle: Paper reviews · Recent trends · Research notes on machine learning.
+subtitle: Ph.D. student in Statistics and Data Science · Yonsei University
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
   more_info: >
-    <p>Machine learning research</p>
-    <p>NLP · Alignment · Theory</p>
+    <p>Seoul, Republic of Korea</p>
+    <p>yjkim.stat@yonsei.ac.kr</p>
 
 selected_papers: false
 news: true
@@ -27,22 +27,30 @@ announcements:
   limit: 5
 ---
 
-Welcome — this is a research log where I write up papers I read, track trends
-in machine learning, and post short notes on ideas I'm working through.
+I am a Ph.D. student in Statistics and Data Science at Yonsei University (Sep 2023–present).
+I hold dual B.S. degrees from Yonsei University in Applied Statistics & Data Science and Astronomy (2017–2023).
 
-The site is organized around three kinds of writing:
+My research interests span **language model post-training** (RLHF, DPO, alignment), **efficient ML** (PEFT, quantization, pruning), **computer vision**, and **natural language processing**.
+I am broadly interested in scalable approaches to machine learning problems.
 
-- **Paper reviews** — close reads of individual papers: motivation, method,
-  results, what I think holds up, and what I'd want to see next.
-- **Trends & surveys** — synthesis posts that compare several recent papers
-  on a single research direction.
-- **Notes** — short-form thoughts, half-formed ideas, and pointers to things
-  worth reading.
+**Research experience**
 
-My current interests center on language model post-training (RLHF, DPO and
-its descendants, alignment), reasoning, and the theoretical underpinnings of
-deep learning. Posts cite their sources via BibTeX and render math through
-MathJax, so equations and references are first-class.
+- Research Intern @ [Linq](https://linq.ai) (Jan–Feb 2024)
+- Vocational Training Intern @ SAP Labs Korea (Jul 2022–Jun 2023)
+- Undergraduate Research Participant, MIDaS Laboratory @ Yonsei Univ. (Jul 2021–Jun 2022)
+
+**Teaching**
+
+- TA, Introduction to Optimization for Data Science @ Yonsei Univ. (Fall 2023)
+- TA, Data Science Lab Undergraduate Academic Society @ Yonsei Univ. (2022) — sessions on supervised learning, BERT, generative models, and seq2seq implementation
+
+---
+
+This site is a research log organized around three kinds of writing:
+
+- **Paper reviews** — close reads of individual papers: motivation, method, results, and what I'd want to see next.
+- **Trends & surveys** — synthesis posts comparing recent papers on a single research direction.
+- **Notes** — short-form thoughts, half-formed ideas, and pointers to things worth reading.
 
 Browse the [blog]({{ '/blog/' | relative_url }}) for everything, or jump to a
 specific category:

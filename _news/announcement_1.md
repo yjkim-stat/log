@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2026-05-06 10:00:00 +0900
+date: 2024-04-06 10:00:00 +0900
 inline: true
 related_posts: false
 ---
 
-New paper review: [Direct Preference Optimization — A Closer Look]({{ '/blog/2026/direct-preference-optimization/' | relative_url }}).
+Posted three survey notes on [Efficient ML]({{ '/blog/2024/survey-efficient-ml/' | relative_url }}), [Super-Alignment]({{ '/blog/2024/survey-super-alignment/' | relative_url }}), and [Recent LLM Technical Reports]({{ '/blog/2024/survey-tech-reports/' | relative_url }}).
