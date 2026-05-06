@@ -4,7 +4,7 @@ title: "[Survey] Recent approaches on Efficient ML"
 date: 2024-04-06 00:00:00 +0900
 description: A collection of recent papers on PEFT, quantization, and pruning for large language models.
 tags: [llm, efficient-ml, fine-tuning]
-categories: trends
+categories: survey
 toc:
   sidebar: left
 related_posts: true

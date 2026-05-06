@@ -4,7 +4,7 @@ title: "[Survey] Recent LLM Technical Reports"
 date: 2024-04-06 02:00:00 +0900
 description: A collection of recent technical reports from Google DeepMind, xAI, AI21Labs, Databricks, HyperCLOVA, and others.
 tags: [llm, survey]
-categories: trends
+categories: survey
 toc:
   sidebar: left
 related_posts: true

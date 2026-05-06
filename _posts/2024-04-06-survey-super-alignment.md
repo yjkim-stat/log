@@ -4,7 +4,7 @@ title: "[Survey] Recent approaches on Super-Alignment"
 date: 2024-04-06 01:00:00 +0900
 description: A collection of recent papers on weak-to-strong generalization, RLHF, and alignment for large models.
 tags: [llm, alignment, rlhf, survey]
-categories: trends
+categories: survey
 toc:
   sidebar: left
 related_posts: true
