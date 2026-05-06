@@ -7,6 +7,8 @@
       value: yjkim.stat@yonsei.ac.kr
     - name: Location
       value: Seoul, Republic of Korea
+    - name: Study Archive
+      value: <a href="https://yejin109.notion.site/70b58984c7b640ddb53aff11a334392d?v=3ae80a7e89324a41b4c52d606234c7bd&pvs=4" target="_blank">Notion</a>
 
 - title: Education
   type: time_table
@@ -46,7 +48,9 @@
       institution: Undergraduate Academic Society, Data Science Lab, Yonsei University
       year: Jul - Dec 2022
       description:
-        - Supervised Learning, BERT, Generative Models, Seq2Seq Implementation
+        - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220804%20Supervised%20Learning/%EC%9E%90%EB%A3%8C/%5B0804%5D%20Supervised%20Learning%20%EC%84%B8%EC%85%98.pdf">Supervised Learning</a>
+        - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220922%20BERT%20%26%20Generative%20Model%20Basic/%5B0922%5D%20BERT%20%26%20Generative%20Model%20Basic.pdf">BERT &amp; Generative Models</a>
+        - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220901%20RNN/%EC%9E%90%EB%A3%8C/s2s_implementation.ipynb">Seq2Seq Implementation</a>
 
 - title: Projects
   type: time_table
@@ -58,6 +62,8 @@
     - title: <a href="https://github.com/yejin109/NLP.TST.StyleLM">Text Style Transfer</a>
       year: 2022
     - title: <a href="https://github.com/yejin109/MaskRCNN-Recommendation">Embedding-based Recommendation (MaskRCNN)</a>
+      year: 2022
+    - title: <a href="https://github.com/yejin109/DSL_VC">Eye-Tracking Data Analysis (Tobii I-VT Filter)</a>
       year: 2022
     - title: GPT Prompt for Domain-Specific Tasks
       year: 2023
