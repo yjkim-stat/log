@@ -5,8 +5,14 @@
       value: Yejin Kim (김예진)
     - name: Email
       value: yjkim.stat@yonsei.ac.kr
+    - name: Phone
+      value: +82-10-6201-6009
     - name: Location
       value: Seoul, Republic of Korea
+    - name: Homepage
+      value: <a href="https://yejin109.github.io/" target="_blank">yejin109.github.io</a>
+    - name: GitHub
+      value: <a href="https://github.com/yjkim-stat" target="_blank">github.com/yjkim-stat</a>
     - name: Study Archive
       value: <a href="https://yejin109.notion.site/70b58984c7b640ddb53aff11a334392d?v=3ae80a7e89324a41b4c52d606234c7bd&pvs=4" target="_blank">Notion</a>
 
@@ -14,43 +20,95 @@
   type: time_table
   contents:
     - title: Ph.D. in Statistics and Data Science
-      institution: Yonsei University, Seoul, Republic of Korea
-      year: 2023 -
+      institution: Yonsei University, Seoul, Korea
+      year: 2023.09 - Present
       description:
-        - Machine learning, post-training of language models, alignment
+        - "Advisor: Jy-yong Sohn"
+        - "GPA: 4.14 / 4.3"
     - title: B.S. in Applied Statistics and Data Science
-      institution: Yonsei University, Seoul, Republic of Korea
-      year: 2019 - 2023
-    - title: B.S. in Astronomy
-      institution: Yonsei University, Seoul, Republic of Korea
-      year: 2017 - 2023
+      institution: Yonsei University, Seoul, Korea
+      year: 2017.03 - 2023.08
+      description:
+        - "GPA: 3.83 / 4.3"
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Intern
+      institution: Krafton, Seoul
+      year: 2026.02 - Present
+    - title: Research Intern
+      institution: Linq, Seoul
+      year: 2024.01 - 2024.02
+      description:
+        - Developed a text embedding model using Mistral 7B
+        - Conducted experiments on MTEB benchmark dataset
+        - Contributed to a technical report
+    - title: Research Intern (Vocational Training Program)
+      institution: SAP Labs Korea, Seoul
+      year: 2022.07 - 2023.08
+      description:
+        - Implemented Neurocard, a data-driven cost estimation model for query optimization
+        - Built APIs to be incorporated in the database system
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: Research Intern
-      institution: Linq
-      year: Jan 2024 - Feb 2024
-    - title: Vocational Training Program Intern
-      institution: SAP Labs Korea
-      year: Jul 2022 - Jun 2023
-    - title: Undergraduate Research Participant (URP)
-      institution: MIDaS Laboratory, Yonsei University
-      year: Jul 2021 - Jun 2022
+    - title: Ph.D. Student
+      institution: IITP — AGI Project for the Era of Human-AI Companions, Seoul
+      year: 2025.05 - Present
+      description:
+        - Developed APIs supporting RAG and Multi-Agent Debate system
+        - Conducted experiments on the AGIEval benchmark, achieving performance comparable to GPT-4 on the LSAT domain
+    - title: Undergraduate Researcher
+      institution: MIDaS Laboratory, Yonsei University, Seoul
+      year: 2021.07 - 2022.06
+      description:
+        - Researched data importance-aware scheduling to exploit diversity in distributed data settings
+        - Designed and evaluated scheduling algorithms
 
 - title: Teaching Experience
   type: time_table
   contents:
-    - title: Teaching Assistant
-      institution: Introduction to Optimization for Data Science, Yonsei University
-      year: Sep - Dec 2023
-    - title: Teaching Assistant
-      institution: Undergraduate Academic Society, Data Science Lab, Yonsei University
-      year: Jul - Dec 2022
+    - title: Teaching Assistant — Introduction to Information Theory for Data Science
+      institution: Yonsei University
+      year: 2024.09
+    - title: Teaching Assistant — Introduction to Optimization for Data Science
+      institution: Yonsei University
+      year: 2023.09
+    - title: Academic Affairs Chair, Data Science Lab (Undergraduate Academic Society)
+      institution: Yonsei University
+      year: 2022.07
       description:
         - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220804%20Supervised%20Learning/%EC%9E%90%EB%A3%8C/%5B0804%5D%20Supervised%20Learning%20%EC%84%B8%EC%85%98.pdf">Supervised Learning</a>
         - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220922%20BERT%20%26%20Generative%20Model%20Basic/%5B0922%5D%20BERT%20%26%20Generative%20Model%20Basic.pdf">BERT &amp; Generative Models</a>
         - <a href="https://github.com/DataScience-Lab-Yonsei/2022-Fall-RegularSession/blob/main/220901%20RNN/%EC%9E%90%EB%A3%8C/s2s_implementation.ipynb">Seq2Seq Implementation</a>
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: "Measuring Representational Shifts in Continual Learning: A Linear Transformation Perspective"
+      institution: ICML
+      year: 2025
+      description:
+        - "Joonkyu Kim, <strong>Yejin Kim</strong>, Jy-yong Sohn"
+    - title: "Aligning large language models for cognitive behavioral therapy: a proof-of-concept study"
+      institution: Frontiers in Psychiatry
+      year: 2025
+      description:
+        - "<strong>Yejin Kim</strong>, Chi-Hyun Choi, Selin Cho, Jy-yong Sohn, Byung-Hoon Kim"
+    - title: "ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification"
+      institution: ClinicalNLP
+      year: 2024
+      description:
+        - "Sehee Lim, <strong>Yejin Kim</strong>, Chi-Hyun Choi, Jy-yong Sohn, Byung-Hoon Kim"
+
+- title: Conference Presentations
+  type: time_table
+  contents:
+    - title: "ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification"
+      institution: NAACL'24, Mexico City
+      year: 2024
 
 - title: Projects
   type: time_table
@@ -72,19 +130,33 @@
     - title: Federated Learning
       year: 2023
 
-- title: Academic Interests
+- title: Research Interests
+  type: list
+  contents:
+    - Inference algorithms for large language models
+    - Multi-agent systems
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Language Models
+    - title: Machine Learning / Deep Learning
       items:
-        - Post-training (RLHF, DPO, alignment)
-        - Efficient fine-tuning (PEFT, quantization, pruning)
-        - Reasoning and evaluation
-    - title: Computer Vision
+        - PyTorch
+        - HuggingFace Transformers
+        - Embedding Models
+        - Inference optimization
+        - Prompt engineering
+    - title: Programming &amp; Tools
       items:
-        - Object detection
-        - Neural radiance fields
-    - title: Natural Language Processing
-      items:
-        - Text style transfer
-        - Query optimization
+        - Python
+        - Flask
+        - Git
+        - Linux
+
+- title: Languages
+  type: map
+  contents:
+    - name: Korean
+      value: Native
+    - name: English
+      value: Fluent
