@@ -56,6 +56,14 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Latest reports -->
+    {% if page.latest_reports.enabled %}
+      <h2>
+        <a href="{{ '/reports/' | relative_url }}" style="color: inherit">recent reports</a>
+      </h2>
+      {% include latest_reports.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>

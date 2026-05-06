@@ -18,6 +18,10 @@ latest_posts:
   enabled: true
   scrollable: true
   limit: 4
+latest_reports:
+  enabled: true
+  scrollable: true
+  limit: 4
 social: true
 ---
 
