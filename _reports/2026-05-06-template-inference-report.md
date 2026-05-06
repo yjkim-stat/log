@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "[Template] Inference Architecture Report"
+title: "Inference Architecture — A Storyboard"
 date: 2026-05-06
-description: Template stub — replace this file when you upload a real report.
+description: Recent trends in LLM inference architecture, organized as a visual storyboard.
 report_url: /assets/reports/2026-05-06-template-inference-report/index.html
-tags: [inference, template]
+tags: [inference, llm-serving, architecture]
 ---
 
 <iframe src="{{ page.report_url | relative_url }}"
