@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research and engineering projects.
-nav: true
+nav: false
 nav_order: 3
 display_categories: [research, computer-vision, nlp]
 horizontal: false

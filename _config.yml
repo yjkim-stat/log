@@ -193,6 +193,9 @@ collections:
   reports:
     output: true
     permalink: /reports/:path/
+  explorations:
+    output: true
+    permalink: /explorations/:path/
 
 announcements:
   enabled: true

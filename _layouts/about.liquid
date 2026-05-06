@@ -64,6 +64,14 @@ layout: default
       {% include latest_reports.liquid %}
     {% endif %}
 
+    <!-- Latest explorations -->
+    {% if page.latest_explorations.enabled %}
+      <h2>
+        <a href="{{ '/explorations/' | relative_url }}" style="color: inherit">explorations</a>
+      </h2>
+      {% include latest_explorations.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
