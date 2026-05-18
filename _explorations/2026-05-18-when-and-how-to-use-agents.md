@@ -8,6 +8,8 @@ description: >
   communication-folder layout for intra-team vs. human-facing messaging,
   and a rubric-driven Pareto harness that co-evolves with the teammates.
 tags: [agents, multi-agent, harness, rubric, context-engineering]
+series: Agent Team Architecture
+chapter: 2
 toc:
   sidebar: left
 ---

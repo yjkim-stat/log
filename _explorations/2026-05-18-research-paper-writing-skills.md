@@ -8,6 +8,8 @@ description: >
   methodology into reusable references for drafting, revising, and
   adversarially reviewing ML/CV/NLP papers.
 tags: [agents, claude-code, skills, paper-writing, research-workflow]
+series: Skills for Research Workflows
+chapter: 2
 toc:
   sidebar: left
 ---

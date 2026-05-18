@@ -7,6 +7,8 @@ description: >
   grill-me for plan stress-testing, and grill-with-docs for the same
   exercise grounded in a project's glossary and ADRs.
 tags: [agents, claude-code, skills, planning, workflow]
+series: Skills for Research Workflows
+chapter: 1
 toc:
   sidebar: left
 ---

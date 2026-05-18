@@ -22,6 +22,8 @@ latest_reports:
   enabled: true
   scrollable: true
   limit: 4
+exploration_series:
+  enabled: true
 latest_explorations:
   enabled: true
   scrollable: true

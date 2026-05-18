@@ -6,6 +6,8 @@ description: >
   A curated reference on agent harnesses — the scaffolding that lets a team
   of AI agents collaborate across long-running, multi-context sessions.
 tags: [agents, multi-agent, harness, llm-serving, architecture]
+series: Agent Team Architecture
+chapter: 1
 toc:
   sidebar: left
 ---

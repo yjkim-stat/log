@@ -1,0 +1,113 @@
+{% assign series_items = site.explorations | where_exp: "e", "e.series" %}
+{% if series_items.size > 0 %}
+  {% assign grouped_series = series_items | group_by: "series" %}
+  <div class="exploration-series">
+    {% for grp in grouped_series %}
+      {% assign chapters = grp.items | sort: "chapter" %}
+      {% assign last_idx = chapters.size | minus: 1 %}
+      {% assign latest = chapters[last_idx] %}
+      <div class="series-block">
+        <div class="series-head">
+          <span class="series-name">{{ grp.name }}</span>
+          <span class="series-meta">
+            {{ chapters.size }} chapter{% if chapters.size != 1 %}s{% endif %}
+            · last updated {{ latest.date | date: "%b %d, %Y" }}
+          </span>
+        </div>
+        <ol class="series-chapters">
+          {% for ch in chapters %}
+            <li>
+              <span class="ch-num">Ch.&nbsp;{{ ch.chapter }}</span>
+              <a class="ch-link" href="{{ ch.url | relative_url }}">{{ ch.title }}</a>
+              <span class="ch-date">{{ ch.date | date: "%b %d, %Y" }}</span>
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+  </div>
+
+  <style>
+    .exploration-series {
+      margin-top: 0.25rem;
+      margin-bottom: 1rem;
+    }
+    .exploration-series .series-block {
+      padding: 0.85rem 1rem 0.95rem 1rem;
+      margin-bottom: 0.85rem;
+      border-left: 3px solid var(--global-theme-color);
+      background: var(--global-bg-color);
+      border-radius: 0 4px 4px 0;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+    .exploration-series .series-head {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .exploration-series .series-name {
+      font-family: var(--global-serif-font-family, Georgia, "Source Serif Pro", serif);
+      font-size: 1.05rem;
+      font-weight: 600;
+      letter-spacing: 0.01em;
+      color: var(--global-text-color);
+    }
+    .exploration-series .series-meta {
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+      font-variant: small-caps;
+      letter-spacing: 0.04em;
+    }
+    .exploration-series .series-chapters {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+    }
+    .exploration-series .series-chapters li {
+      display: flex;
+      align-items: baseline;
+      gap: 0.6rem;
+      padding: 0.18rem 0;
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+    .exploration-series .ch-num {
+      flex: 0 0 auto;
+      min-width: 3.2rem;
+      font-variant-numeric: tabular-nums;
+      color: var(--global-text-color-light);
+      font-size: 0.82rem;
+      letter-spacing: 0.03em;
+    }
+    .exploration-series .ch-link {
+      flex: 1 1 auto;
+      color: var(--global-text-color);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s ease;
+    }
+    .exploration-series .ch-link:hover {
+      color: var(--global-theme-color);
+      border-bottom-color: var(--global-theme-color);
+    }
+    .exploration-series .ch-date {
+      flex: 0 0 auto;
+      color: var(--global-text-color-light);
+      font-size: 0.78rem;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    @media (max-width: 576px) {
+      .exploration-series .series-head {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .exploration-series .ch-date {
+        display: none;
+      }
+    }
+  </style>
+{% endif %}

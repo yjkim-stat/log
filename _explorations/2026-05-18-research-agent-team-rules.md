@@ -7,6 +7,8 @@ description: >
   lead (Opus) coordinating teammate agents (Sonnet) through a rubric-driven
   feedback loop that culminates in a formal LaTeX paper draft.
 tags: [agents, multi-agent, harness, research-workflow, llm]
+series: Agent Team Architecture
+chapter: 3
 toc:
   sidebar: left
 ---
