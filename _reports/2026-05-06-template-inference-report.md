@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "Inference Architecture — A Storyboard"
+title: "Inference Architecture"
 date: 2026-05-06
-description: Recent trends in LLM inference architecture, organized as a visual storyboard.
+description: A living survey of recent trends in LLM inference architecture, updated periodically.
 report_url: /assets/reports/2026-05-06-template-inference-report/index.html
 tags: [inference, llm-serving, architecture]
 ---

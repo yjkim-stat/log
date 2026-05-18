@@ -16,7 +16,7 @@
       <table class="table table-sm table-borderless">
         {% for item in sorted_reports limit: reports_limit %}
           <tr>
-            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <th scope="row" style="width: 25%">Released {{ item.date | date: '%b %d, %Y' }}</th>
             <td>
               {% if item.report_url %}
                 <a class="news-title" href="{{ item.report_url | relative_url }}" target="_blank">{{ item.title }}</a>

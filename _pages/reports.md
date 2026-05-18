@@ -19,7 +19,7 @@ description: Periodic analyses on recent inference architecture trends.
         {% endif %}
       </h3>
       <p class="post-meta">
-        {{ r.date | date: "%b %d, %Y" }}
+        Released {{ r.date | date: "%b %d, %Y" }}
         {% if r.tags %} · {{ r.tags | join: ", " }}{% endif %}
       </p>
       {% if r.description %}<p>{{ r.description }}</p>{% endif %}
