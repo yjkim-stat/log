@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at ClinicalNLP 2024: *ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification.*
+Paper accepted at ClinicalNLP 2024: [*ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification*](https://aclanthology.org/2024.clinicalnlp-1.25/).
