@@ -431,7 +431,7 @@ are kept at low confidence and re-evaluated after the next session.
 
 - Write in English for all blog content.
 - Prefer cross-links between related posts using
-  `{% link _posts/... %}` syntax.
+  Liquid link tags (e.g. `link _posts/YYYY-MM-DD-slug.md`).
 - When the user says "정리해" they want a structured, formal post,
   not a casual summary.
 
