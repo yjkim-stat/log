@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /reports/
-title: reports
+title: Reports
 nav: true
 nav_order: 5
 description: Periodic analyses on recent inference architecture trends.

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /explorations/
-title: explorations
+title: Explorations
 nav: true
 nav_order: 3
 description: Short writeups introducing recent ML techniques together with my own hands-on experiments.
